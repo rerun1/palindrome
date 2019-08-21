@@ -8,6 +8,8 @@ A palindrome is any word, phrase, number, or other sequence of characters which 
 
 Code works on a string of words. For example: "Hello olleH" is a palindrome by this page's definition.
 
+Commented out are more verbose ways to achieve this goal (one is recursive and the other a for loop)
+
 <br>
 
 ## Objectives
@@ -25,7 +27,7 @@ All previous objectives have been met.
 ## Current Screenshot for Reference
 <br>
 
-![alt text](https://raw.githubusercontent.com/rerun1/palindrome/master/img/screenShot8-20-19.png)
+![alt text](https://raw.githubusercontent.com/rerun1/palindrome/master/img/screenShot8-21-19.png)
 <br>
 <br>
 
