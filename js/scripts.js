@@ -1,31 +1,47 @@
+var userWord = "";
+var word = "";
+var reverseUserWord = "";
+
+var wordPrep = function(userWord){
+  word = userWord.trim().toLowerCase();
+  reverseUserWord = word.split("").reverse().join("");
+};
+
 
 
 $(document).ready(function(){
+
   $("form#wordInput").submit(function(event){
     event.preventDefault();
 
-    var userWord = $("input#userWord").val();
+    $("p#palindromeSentence").empty();
 
-    userWord.trim();
+    userWord = $("input#userWord").val();
 
-    console.log(userWord);
+    wordPrep(userWord);
 
-//     function reverse(str){
-//   let reversed = "";
-//   for (var i = str.length - 1; i >= 0; i--){
-//     reversed += str[i];
-//   }
-//   return reversed;
-// }
-
-
-    for (var i = userWord.length - 1; i >= 0; i --) {
-      var reverse = "";
-      reverse += userWord[i];
-      return reverse;
+    if (reverseUserWord === word) {
+      return $("p#palindromeSentence").text(userWord + " is a palindrome!");
+    } else {
+      return $("p#palindromeSentence").text(userWord + " is not a palindrome.");
     }
 
-    console.log(reverse);
-
   });
+
 });
+
+// for (var i = word.length - 1; i >= 0; i --) {
+//   reverseUserWord += word[i];
+// }
+//
+// var recursionReverse = function(string) {
+//   if (string === "") { // terminal case
+//     return string;
+//   } else { // block to execute
+//     reverseUserWord = recursionReverse(string.substr(1)) + string[0];
+//     return reverseUserWord;
+//   }
+// };
+// recursionReverse(word);
+
+// reverseUserWord = word.split("").reverse().join("");

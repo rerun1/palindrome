@@ -1,22 +1,23 @@
 
-#### New Project
+#### Form to check if a word is a palindrome
 #### _**by Suzi Rubino — **_
 <br>
 
 ## Description
+A palindrome is any word, phrase, number, or other sequence of characters which reads the same backward or forward. Web page identifies whether or not a user inputted word is a palindrome.
 
-
+Code works on a string of words. For example: "Hello olleH" is a palindrome by this page's definition.
 
 <br>
 
 ## Objectives
-- [] JavaScript business logic and user interface logic are separate.
-- [] Variable names are descriptive and use lower camel case (e.g. myVariableExample).
-- [] Code is clean, well-refactored, and easy-to-read. This includes correct indendation, spacing, and including only necessary comments and debugging tools.
-- [] Application implements a for loop and works as expected.
+- [x] JavaScript business logic and user interface logic are separate.
+- [x] Variable names are descriptive and use lower camel case (e.g. myVariableExample).
+- [x] Code is clean, well-refactored, and easy-to-read. This includes correct indendation, spacing, and including only necessary comments and debugging tools.
+- [x] Application implements a for loop and works as expected.
 All previous objectives have been met.
-- [] Project is broken down into "plain English" specs, listed in README.
-- [] Project is in a presentable, portfolio-quality state.
+- [x] Project is broken down into "plain English" specs, listed in README.
+- [x] Project is in a presentable, portfolio-quality state.
 - [] Practice styling with imagery
 
 <br>
@@ -24,7 +25,7 @@ All previous objectives have been met.
 ## Current Screenshot for Reference
 <br>
 
-![alt text](https://raw.githubusercontent.com/rerun1/factorial/master/img/screenShot8-20-19.png)
+![alt text](https://raw.githubusercontent.com/rerun1/palindrome/master/img/screenShot8-20-19.png)
 <br>
 <br>
 

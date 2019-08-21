@@ -14,16 +14,16 @@
       <form id="wordInput">
         <div class="row">
           <div class="col-12">
-            <h1 class="mt-4 mb-2">WHAT! !THAW is a Palindrome!</h1>
+            <h1 class="mt-4 mb-2">WHAT! !THAW is a Palindrome...</h1>
           </div>
         </div>
         <div class="row">
           <div class="col">
             <div class="input-group mb-3">
               <div class="input-group-prepend">
-                <span class="input-group-text">Is it a palindrome?</span>
+                <span class="input-group-text">Is this word a palindrome:</span>
               </div>
-              <input id="userWord" type="text" class="form-control" placeholder="enter a word to check">
+              <input id="userWord" name="userWordName" type="text" class="form-control" placeholder="enter a word to check" required>
             </div>
           </div>
         </div>
@@ -33,6 +33,11 @@
           </div>
         </div>
       </form>
+      <div class="row">
+        <div id=" palindromeDisplay" class="col-12">
+          <p id="palindromeSentence"></p>
+        </div>
+      </div>
     </div>
   </body>
 </html>
